@@ -1,0 +1,33 @@
+# start listener in one window
+
+$ ruby listener.rb
+
+
+
+# send a long piece of data from another terminal
+$ ruby talker.rb
+
+
+################################################################################
+tung@walle ~/Sites/br/em_data_chopped $ ruby listener.rb
+listening
+!!!!!
+16384
+!!!!!
+16384
+!!!!!
+16384
+!!!!!
+16384
+!!!!!
+16384
+!!!!!
+16384
+!!!!!
+16384
+!!!!!
+3416
+
+
+
+Thats one data packet, receive_data only receives it at 16384
